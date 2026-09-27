@@ -32,6 +32,10 @@
 			"custom_domain": true
 		}
 	],
+	// Defining `routes` at all makes Wrangler default workers_dev to false, so
+	// the workers.dev hostname has to be kept on explicitly. It is the only
+	// hostname the aiacquisition.com edge challenge does not cover.
+	"workers_dev": true,
 	"vars": {
 		// The canonical origin. Set explicitly so the deployment remembers this
 		// host rather than whichever origin a request happens to arrive on.
