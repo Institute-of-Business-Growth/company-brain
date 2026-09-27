@@ -46,7 +46,7 @@
 		{
 			"binding": "DB",
 			"database_name": "company-brain",
-			"database_id": "9b8f74bf-23de-4ce1-87b9-3d41e883460e",
+			"database_id": "9d3cefe3-e9c5-4731-9eb6-0b1cf82e4899",
 			"migrations_dir": "drizzle"
 		}
 	],
