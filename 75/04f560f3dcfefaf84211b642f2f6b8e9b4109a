@@ -1,0 +1,14 @@
+wrangler.jsonc
+  h_63c31adffd2d65 29-34,36-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "7504f560f3dcfefaf84211b642f2f6b8e9b4109a",
+  "prompts": {},
+  "humans": {
+    "h_63c31adffd2d65": {
+      "author": "Blaise Gulaj <bgulaj@gmail.com>"
+    }
+  }
+}
