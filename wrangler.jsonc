@@ -26,7 +26,16 @@
 			"/health"
 		]
 	},
+	"routes": [
+		{
+			"pattern": "brain.aiacquisition.com",
+			"custom_domain": true
+		}
+	],
 	"vars": {
+		// The canonical origin. Set explicitly so the deployment remembers this
+		// host rather than whichever origin a request happens to arrive on.
+		"PUBLIC_URL": "https://brain.aiacquisition.com",
 		// "on" once the Workers Paid block below is enabled: sandbox tools then
 		// run on a Cloudflare container.
 		"CONTAINER_SANDBOX": "off",
